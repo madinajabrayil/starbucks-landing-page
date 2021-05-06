@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+</head>
+
+<body>
+    <section class="main">
+        <div class="circle"></div>
+        <header class="header">
+            <a href="#" class="logo">
+                <img src="img/logo.png" alt="Logo" class="logo-img">
+            </a>
+            <ul class="menu-nav">
+                <li class="menu-nav-li">
+                    <a href="#" class="link">Home</a>
+                </li>
+                <li class="menu-nav-li">
+                    <a href="#" class="link">Menu</a>
+                </li>
+                <li class="menu-nav-li">
+                    <a href="#" class="link">What's New</a>
+                </li>
+                <li class="menu-nav-li">
+                    <a href="#" class="link">Contact</a>
+                </li>
+            </ul>
+        </header>
+        <div class="content">
+            <div class="content-text">
+                <h2 class="heading">It's not just Coffee <br> It's <span class="starbk">Starbucks</span></h2>
+                <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore nihil corporis et aliquid facere repellat cupiditate, consequatur voluptatum, magni eum animi! Eaque, dignissimos magnam! Voluptatem voluptates delectus excepturi ipsam eos?</p>
+                <a href="#" class="more">Learn More</a>
+            </div>
+            <div class="main-img">
+                <img src="img/green.png" alt="Green" class="starbucks-coffee">
+            </div>
+        </div>
+        <ul class="thumb">
+            <li><img src="img/greenthumb.png" alt="coffee" class="thumb-img green" onclick="imgSlider('img/green.png');changeCircleColor('#006439')"></li>
+            <li><img src="img/pinkthumb.png" alt="coffee" class="thumb-img pink" onclick="imgSlider('img/pink.png');changeCircleColor('#AD555F')"></li>
+            <li><img src="img/purplethumb.png" alt="coffee" class="thumb-img purple" onclick="imgSlider('img/purple.png');changeCircleColor('#E54D8C')"></li>
+
+        </ul>
+        <ul class="social">
+            <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+            <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+
+        </ul>
+    </section>
+    <script src="main.js"></script>
+</body>
+
+</html>
